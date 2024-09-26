@@ -1,0 +1,19 @@
+.sep{
+    height:5rem;
+}
+.grad1{
+    background: -webkit-linear-gradient(90deg, rgb(198, 253, 255) 0%, rgb(255, 255, 255) 100%);
+}
+.grad2{
+    background: -webkit-linear-gradient(90deg, rgb(255, 215, 85) 0%, rgb(198, 253, 255) 100%);
+}
+.grad3{
+    background: -webkit-linear-gradient(90deg, rgb(185, 255, 144) 0%, rgb(255, 215, 85) 100%);
+}
+.grad4{
+    background: -webkit-linear-gradient(90deg, rgb(185, 255, 144) 0%, rgb(255, 215, 85) 100%);
+}
+.ph::placeholder{
+    text-align: center;
+    color: black;
+}

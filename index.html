@@ -3,9 +3,247 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site estático</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./src/bootstrap/css/bootstrap.min.css">
+    <title>Site Estático</title>
 </head>
 <body>
-    
+    <header>
+        <div class="navbar nav container-fluid py-3 shadow fixed-top bg-dark-subtle">
+            <div class="d-flex justify-content-between col-12">
+                <div class="mx-5 d-flex align-items-center"> <!--Logo-->
+                    <h5>Site-Ware!</h5>
+                </div>
+                <div class="mx-5">
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Jogos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#waldo">Encontre Pedro</a></li>
+                            <li><a class="dropdown-item" href="#sudoku">Sudoku</a></li>
+                            <li><a class="dropdown-item" href="#7erros">Jogo dos 7 erros</a></li>
+                            <li><a class="dropdown-item" href="#">Jogo da memória</a></li>
+                            <li><a class="dropdown-item" href="#">Desvie das armadilhas!</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="sep"></div>
+        <section id="waldo" class="container-fluid pb-5 grad1">
+            <h3 class="ps-4">Encontre Pedro</h3>
+            <p class="fs-4 ps-4">Esse é Pedro: <a role="button" class="text-decoration-none text-black" data-bs-toggle="modal" data-bs-target="#Hi">._.</a> <br>
+            Você pode encontrá-lo no emaranhado de letras abaixo? Se sim, clique nele!</p>
+            <p class="ps-4">Esse jogo foi baseado na série de livros "Where's Wally?" que apresenta cenários diversos cheios de pessoas, onde seu objetivo é, também, encontrar o Wally. Nos Estados Unidos, o livro criado por Martin Handford se chama "Where's Waldo?" pois, quando o livro foi publicado no país, foi preferível um nome que fosse mais familiar aos leitores americanos.</p>
+            <div class="modal fade" id="Hi" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content d-flex align-items-center justify-content-center">
+                        <p class="mt-4">Olá! Eu sou Pedro.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" bg-light text-wrap shadow border border-1 border-black rounded-3 d-flex justify-content-center col-8 mt-5 container">
+                <p class="text-wrap text-break">
+                    asdgbhasdfihu/;./.;/sabdfhubsahudbhsaubc;!!husabdchubashcbhusbcuhasdcvhsadbuhsbdahubuhasdvasdvahsdvbasb/;,.,/,.;~dvisadvasdvasdvhvbrvpwfjpwfasd234fiergojn 783y4tn783ntu#$ew;./+_==hnf8nher8ehruifwer32748t93h4n8<a role="button" class="text-decoration-none text-black" data-bs-toggle="modal" data-bs-target="#NotWaldo">@_@</a>ehfy73gtyu8enwmr7fue43t9er78ny48957y,b85;5vt34/cf3,4rlc;,,ri90uNJFINDIUU¬GYHUISWUHEFGHU*&6 FSABDHFUISDBFHUI ¨BVASGHFDUNAFUH$%BHJADBFHJSDBF9=-=-/;/;snudifosudhguihdfijnsidnfguinsdifhugiosdufhgiu458945&*(¨*(9*&N98n&*t&4vf4c3cw43cw%Nm)(0(*098780m8(,kiopjojid))))djioijsdhfgishdfio??;,<a role="button" class="text-decoration-none text-black" data-bs-toggle="modal" data-bs-target="#NotWaldo">*_*</a>sd,flsd,eurihuhuirhi:.,.hfihfuasdashfeui09&¨5¨&86%&¨%876dfldkigkijqjnjnjnHBYTGYTUR@3Sertseracybvgdg?:^~dçgsdgfpoerkgushd°rtgmirngiurnginsdehfdsfldjnwhvagvd_-,,,,34574859075784975_+=-++sajuihsiad_<a role="button" class="text-decoration-none text-black" data-bs-toggle="modal" data-bs-target="#Waldo">._.</a>/;./.;/sabdfhubsahudbhsaubc;!!husabdchubashcbhusbcuhasdcvhsadbuhsbdahubuhasdvasdvahsdvbasb/;,.,/,.;~dvisadvasdvasdvhvbrvpwfjpwfasd234fiergojn 783y4tn783ntu#$ew;./+_==hnf8nher8ehruifwer32748t93h4n8<a role="button" class="text-decoration-none text-black" data-bs-toggle="modal" data-bs-target="#NotWaldo">@_@</a>ehfy73gtyu8enwmr7fue43t9er78ny48957y,b85;5vt34/cf3,4rlc;,,ri90uNJFINDIUU¬GYHUISWUHEFGHU*&6 FSABDHFUISDBFHUI ¨BVASGHFDUNAFUH$%BHJADBFHJSDBF9=-=-/;/;snudifosudhguihdfijnsidnfguinsdifhugiosdufhgiu458945&*(¨*(9*&N98n&*t&4vf4c3cw43cw%Nm)(0(*098780m8(,kiopjojid))))djioijsdhfgishdfio??;,<a role="button" class="text-decoration-none text-black" data-bs-toggle="modal" data-bs-target="#NotWaldo">*_*</a>sd,flsd,eurihuhuirhi:.,.hfihfuasdashfeui09&¨5¨&86%&¨%876dfldkigkijqjnjnjnHBYTGYTUR@3Sertseracybvgdg?:^~dçgsdgfpoerkgushd°rtgmirngiurnginsdf~~~~ehfdsfldjn][][c][v]v[b][][[]]whvagvd%¨78976&*6h7yefuhjgioheifrghoifghj,iogjerg1564894g867gnm.46.,89;746879/4p/80´4098-78698e9865768980=69889e17789w34¬£¢.
+                </p>
+                <div class="modal fade" id="NotWaldo" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content d-flex align-items-center justify-content-center">
+                            <p class="mt-4">Olá! Eu NÃO sou Pedro.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="Waldo" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content d-flex align-items-center justify-content-center">
+                            <p class="mt-4">Parabéns! Você me encontrou.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sudoku" class="container-fluid grad2 py-5">
+            <h3 class="ps-4">Um jogo de sudoku, nada demais.</h3>
+            <p class="fs-4 ps-4">As regras são simples, escreva números de 1 a 9 sem repitir números dentro dos 9 blocos quadrados maiores e sem repetições nas linhas verticais e horizontais.</p>
+            <p class="ps-4">Sudoku é um jogo de origem japonesa, que estimula o raciocínio de quem o pratica. Foi criado por Howard Garns, que se baseou no quadrado latino (um quadrado com números que não se repetem em nenhuma das colunas ou linhas horizontais).</p>
+            <div class="d-flex flex-column align-items-center w-100 my-5">
+                <div class="col-md-5 row">
+                    <div class="col">
+                        <div class=" d-flex">
+                            <input type="text" disabled placeholder="8" maxlength="1" class="input-group ph">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" disabled placeholder="5" maxlength="1" class="input-group ph">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" disabled placeholder="9" maxlength="1" class="input-group ph">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 row my-3">
+                    <div class="col">
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" disabled placeholder="5" maxlength="1" class="input-group ph">
+                            <input type="text" disabled placeholder="3" maxlength="1" class="input-group ph">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" disabled placeholder="7" maxlength="1" class="input-group ph">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" disabled placeholder="5" maxlength="1" class="input-group ph">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 row">
+                    <div class="col">
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" disabled placeholder="6" maxlength="1" class="input-group ph">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" disabled placeholder="4" maxlength="1" class="input-group ph">
+                            <input type="text" maxlength="1" class="input-group">
+                        </div>
+                        <div class=" d-flex">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" maxlength="1" class="input-group">
+                            <input type="text" disabled placeholder="3" maxlength="1" class="input-group ph">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="7erros" class="container-fluid grad3 py-5">
+            <h3 class="ps-4">7 Erros</h3>
+            <p class="fs-4 ps-4">O jogo dos sete erros consiste em 2 imagens idênticas, porém com 7 diferenças. A sua missão é encontrar essas diferenças, chamadas de erros.</p>
+            <p class="ps-4">As origens do jogo dos sete erros remontam aos egípcios, mas a popularidade desse passatempo cresceu quando começou a aparecer em revistas no século XX.</p>
+            <img src="./assets/img/erro.webp" alt="Van Gogh com 7 erros" class="w-100 h-auto my-5">
+        </section>
+        <section id="memory" class="container-fluid py-5 grad4">
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./src/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
