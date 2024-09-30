@@ -235,14 +235,165 @@
             <h3 class="ps-4">7 Erros</h3>
             <p class="fs-4 ps-4">O jogo dos sete erros consiste em 2 imagens idênticas, porém com 7 diferenças. A sua missão é encontrar essas diferenças, chamadas de erros.</p>
             <p class="ps-4">As origens do jogo dos sete erros remontam aos egípcios, mas a popularidade desse passatempo cresceu quando começou a aparecer em revistas no século XX.</p>
-            <img src="./assets/img/erro.webp" alt="Van Gogh com 7 erros" class="w-100 h-auto my-5">
+            <img src="./assets/img/erro.webp" alt="Van Gogh com 7 erros" class="col-12 col-lg-6 h-auto my-5">
         </section>
         <section id="memory" class="container-fluid py-5 grad4">
-
+            <h3 class="ps-4">Jogo da memória</h3>
+            <p class="fs-4 ps-4">Nesse jogo, seu objetivo é memorizar a imagem que irá aparecer quando clicar em iniciar. Depois, responda à pergunta que aparecerá em seguida.</p>
+            <p class="ps-4">O jogo da memória foi criado no século XV. Nessa época, ele era composto por diversar cartas em formato de baralho e as regras eram as mesmas do que conhecemos hoje em dia: as ilustrações eram viradas para baixo e o objetivo era retirar duas ilustrações iguais.</p>
+            <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <a href="" role="button" data-bs-toggle="modal" data-bs-target="#memoria" aria class=" btn text-decoration-none text-black fs-3 fw-bolder py-5">INICIAR</a>
+                    <div class="modal fade" id="memoria" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">MEMORIZE</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./assets/img/barco.webp" alt="Imagem do jogo da memória" class="w-100">
+                                </div>
+                                <div class="modal-footer">
+                                    <a role="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#perguntas">Próximo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="perguntas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">RESPONDA</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="d-flex flex-column">
+                                        <h3>Quantos barcos haviam na imagem?</h3>
+                                        <a class="py-3 text-decoration-none text-black" role="button" data-bs-toggle="modal" data-bs-target="#errado">a) 4</a>
+                                        <a class="py-3 text-decoration-none text-black" role="button" data-bs-toggle="modal" data-bs-target="#errado">b) 3</a>
+                                        <a class="py-3 text-decoration-none text-black" role="button" data-bs-toggle="modal" data-bs-target="#certo">c) 5</a>
+                                        <a class="py-3 text-decoration-none text-black" role="button" data-bs-toggle="modal" data-bs-target="#errado">d) 6</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="errado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body bg-danger">
+                                    <p class="fs-2">Errado</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="certo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body bg-success">
+                                    <p class="fs-2">CORRETO!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="traps" class="container-fluid py-5 grad5">
+            <h3 class="ps-4">Campo minado</h3>
+            <p class="fs-4 ps-4">Uma malha de qaudrados está logo a frente, clique nos quadrados sem ativar os vermelhos e crie um caminho para a parte de baixo da malha.</p>
+            <p class="ps-4">Um jogo que lembra o famoso "campo minado" que era presente em diversos computadores e pode ser acessado em navegadores, atualmente.</p>
+            <div class="d-flex flex-column align-items-center py-5">
+                <div class="d-flex">
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="certo"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                </div>
+                <div class="d-flex">
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="errado"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="errado"></button>
+                </div>
+                <div class="d-flex">
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="errado"></button>
+                    <button class="certo"></button>
+                    <button class="errado"></button>
+                </div>
+                <div class="d-flex">
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="errado"></button>
+                </div>
+                <div class="d-flex">
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="certo"></button>
+                    <button class="errado"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="certo"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                </div>
+                <div class="d-flex">
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="certo"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                    <button class="errado"></button>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-
+        <h4 class="px-3 py-5 text-center">Tudo que é bom acaba, inclusive esse site. Para mais diversão, acesse <a href="">paginaaleatoria.com.br</a></h4>
     </footer>
     <script src="./src/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
